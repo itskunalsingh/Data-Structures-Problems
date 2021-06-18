@@ -1,0 +1,12 @@
+# logic only
+
+def reverse(s):
+    rev_word = ''
+    i = 1
+    while i <= len(s):
+        rev_word = rev_word + s[-i]
+        i = i + 1
+    return rev_word
+
+
+# enter your input here and pass to the function
