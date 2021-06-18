@@ -1,0 +1,15 @@
+def min_max(arr):
+    x = max(arr)
+    y = min(arr)
+    return x, y
+
+array1 = []
+n = int(input())
+for i in range(n):
+    ele = int(input())
+    array1.append(ele)
+
+c = min_max(array1)
+print(c)
+
+            
